@@ -40,8 +40,8 @@ public string oneLastField= "last field";
 
 ```c#
 [ShowIf(ActionOnConditionFail.JustDisable, ConditionOperator.And,nameof(CalculateIsEnabled))]
-public string yetAnotherField = "one more";    public 
-bool CalculateIsEnabled()    
+public string yetAnotherField = "one more";    
+public bool CalculateIsEnabled()    
 {
     return true;    
 }
